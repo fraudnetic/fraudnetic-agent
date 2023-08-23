@@ -1,0 +1,22 @@
+{
+  "name": "fraudnetic-agent",
+  "version": "1.0.0",
+  "description": "Fraudnetic agent integration for front",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraudnetic/fraudnetic-agent.git"
+  },
+  "keywords": [
+    "fraudnetic",
+    "typescript",
+    "agent"
+  ],
+  "author": "Davit G.",
+  "license": "MIT",
+  "homepage": "https://github.com/fraudnetic/fraudnetic-agent",
+  "files": [
+    "lib/**/*"
+  ]
+}
