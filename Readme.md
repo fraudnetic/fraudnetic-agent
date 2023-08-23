@@ -1,4 +1,4 @@
-# Fraudnetic Node integration
+# Fraudnetic agent usage
 
 ## Installation
 
