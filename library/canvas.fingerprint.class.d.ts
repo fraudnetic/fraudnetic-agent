@@ -3,5 +3,4 @@ export default class CanvasFingerprint {
     private readonly context;
     constructor();
     getFingerprint(): string;
-    private generateFingerprint;
 }
