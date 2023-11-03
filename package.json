@@ -1,6 +1,6 @@
 {
   "name": "fraudnetic-agent",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fraudnetic agent integration for front",
   "main": "index.js",
   "types": "index.d.ts",
