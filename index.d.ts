@@ -1,6 +1,7 @@
 declare class Fraudnetic {
     constructor();
-    init(): Promise<unknown>;
+    printDevelopment(): Promise<void>;
+    init(isDevelopment?: boolean, withVersion?: boolean): Promise<unknown>;
 }
 declare const fraudnetic: Fraudnetic;
 export default fraudnetic;
