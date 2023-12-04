@@ -1,6 +1,6 @@
 {
   "name": "fraudnetic-agent",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Fraudnetic agent integration for front",
   "main": "index.js",
   "types": "index.d.ts",
@@ -17,6 +17,14 @@
   "license": "MIT",
   "homepage": "https://github.com/fraudnetic/fraudnetic-agent",
   "files": [
-    "lib/**/*"
+    "interface/options.interface.d.ts",
+    "library/agent.class.d.ts",
+    "library/canvas.fingerprint.class.d.ts",
+    "library/cookie.class.d.ts",
+    "library/detectIncognito.d.ts",
+    "library/log.class.d.ts",
+    "index.js",
+    "index.d.ts",
+    "config.class.d.ts"
   ]
 }
