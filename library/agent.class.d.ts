@@ -1,4 +1,6 @@
 export default class Agent {
+    static getTimeZone(): number;
+    static isFirefox(): boolean;
     private static getAvailableResolution;
     private static getColorDepth;
     static getCurrentResolution(): string;
@@ -9,10 +11,14 @@ export default class Agent {
     static isWebKit(): boolean;
     private static getScreenPrint;
     private static getFontsList;
+    private static getTextWidth;
+    static getFontFingerprint(): string;
+    static getDetailedWebGLReport(): string;
     static getCanvasFingerprint(): string;
     static getFontsFingerprint(): number;
     static getWebGLFingerprint(): number;
     static isIncognito(): Promise<boolean>;
+    static getAudioFingerprint(): Promise<string>;
     static getPeriodicWaveFingerprint(): Promise<number>;
     /**
      * @see https://gitlab.torproject.org/legacy/trac/-/issues/13018
